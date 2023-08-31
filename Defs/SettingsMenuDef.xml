@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <XmlExtensions.SettingsMenuDef>
+        <defName>AdjSexOr</defName> <!--Can be anything unique with no periods-->
+        <modId>AdjSexOr</modId> <!--MUST be the same as the one entered earlier-->    
+        <label>Adjustable Sexual Orientation</label> <!-- This is what displays as your mod's name-->    
+        <settings> <!--This is where you define what settings are in the settings menu-->
+            <li Class="XmlExtensions.Setting.Numeric">
+                <key>commonGay</key>
+                <label>Numeric label here</label>
+                <defaultValue>0.3</defaultValue>
+                <min>0</min>
+                <max>1000</max>
+            </li>
+            <li Class="XmlExtensions.Setting.GapLine"/>
+            <li Class="XmlExtensions.Setting.Numeric">
+                <key>commonBi</key>
+                <label>Numeric label here</label>
+                <defaultValue>0.2</defaultValue>
+                <min>0</min>
+                <max>1000</max>
+            </li>
+            <li Class="XmlExtensions.Setting.GapLine"/>
+            <li Class="XmlExtensions.Setting.Numeric">
+                <key>commonAce</key>
+                <label>Numeric label here</label>
+                <defaultValue>0.2</defaultValue>
+                <min>0</min>
+                <max>1000</max>
+            </li>
+            <li Class="XmlExtensions.Setting.ResetSettings"/>
+        </settings>
+    </XmlExtensions.SettingsMenuDef>
+
+</Defs>

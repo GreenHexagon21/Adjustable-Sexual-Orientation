@@ -5,29 +5,46 @@
         <modId>AdjSexOr</modId> <!--MUST be the same as the one entered earlier-->    
         <label>Adjustable Sexual Orientation</label> <!-- This is what displays as your mod's name-->    
         <settings> <!--This is where you define what settings are in the settings menu-->
+            <li Class="XmlExtensions.Setting.Gap"/>
+            <li Class="XmlExtensions.Setting.Text">
+                <text>Commonality is not a percentage! It's something else (0.3 = 0.6%, 50 = 51.2%, 100 = 87%)</text>
+                <anchor>Middle</anchor>
+            </li>
+            <li Class="XmlExtensions.Setting.Gap"/>
+            <li Class="XmlExtensions.Setting.SetColor">
+                <color>(255,50,50)</color>
+            </li>
+            <li Class="XmlExtensions.Setting.Text">
+                <text>WARNING! Reload the game after changing the values, so they apply!</text>
+                <anchor>Middle</anchor>
+                <font>Medium</font>
+            </li>
+            <li Class="XmlExtensions.Setting.SetColor"/>
+            <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.Numeric">
                 <key>commonGay</key>
-                <label>Numeric label here</label>
+                <label>The commonality of being gay</label>
                 <defaultValue>0.3</defaultValue>
                 <min>0</min>
                 <max>1000</max>
             </li>
-            <li Class="XmlExtensions.Setting.GapLine"/>
+            <li Class="XmlExtensions.Setting.Gap"/>
             <li Class="XmlExtensions.Setting.Numeric">
                 <key>commonBi</key>
-                <label>Numeric label here</label>
+                <label>The commonality of being bisexual</label>
+                <defaultValue>0.2</defaultValue>
+                <min>0</min>
+                <max>1000</max>
+            </li>
+            <li Class="XmlExtensions.Setting.Gap"/>
+            <li Class="XmlExtensions.Setting.Numeric">
+                <key>commonAce</key>
+                <label>The commonality of being asexual</label>
                 <defaultValue>0.2</defaultValue>
                 <min>0</min>
                 <max>1000</max>
             </li>
             <li Class="XmlExtensions.Setting.GapLine"/>
-            <li Class="XmlExtensions.Setting.Numeric">
-                <key>commonAce</key>
-                <label>Numeric label here</label>
-                <defaultValue>0.2</defaultValue>
-                <min>0</min>
-                <max>1000</max>
-            </li>
             <li Class="XmlExtensions.Setting.ResetSettings"/>
         </settings>
     </XmlExtensions.SettingsMenuDef>

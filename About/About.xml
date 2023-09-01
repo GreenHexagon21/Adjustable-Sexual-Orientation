@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-    <name>Adjustable Sexual Orientations</name>
+    <name>Adjustable Sexual Orientation Commonality</name>
     <author>Hex</author>
     <packageId>Hex.AdjSexOr</packageId>
     <supportedVersions>
         <li>1.4</li>
     </supportedVersions>
     <description>
-        Adds more horn colors and a bit of spice to them, feel free to fork and change, the code can be found at: https://github.com/GreenHexagon21/More-Horn-Colors 
+        Adds a way to change how often you get pawns with the traits: gay/bisexual/asexual.
     </description>
     <modDependencies>
         <li>
